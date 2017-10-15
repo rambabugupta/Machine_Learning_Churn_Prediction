@@ -10,7 +10,6 @@ command :   python transform_data.py
 ### What It Does
 
 It will generate 'train.csv' and 'merged.csv' file. 'train.csv' file contains  all the transformed attribute.'merged.csv' contains values of 'train.csv' and labels information.
-Important : It transforms the 'machine_learning_challenge_order_data.csv'. So, keep that file at the location where you want to run python transform_data.py
 
 ### Transformed the attributes
 
