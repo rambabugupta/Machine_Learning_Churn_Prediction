@@ -60,7 +60,7 @@ And User_rating_value, Delivery_on_time could also be effective in finding bette
 
 ## FOR BETTER ACCURACY
 
-1. If I would have time, then I would encoded the categorical variable into on hot encoding then feed it into SVM. So, it might have performed better. Also, added or dropped few attributes to see its effectiveness in the accuracy.
+1. If I would have time, then I would binary encoded the categorical variable into on hot encoding then feed it into SVM. So, it might have performed better. Also, added or dropped few attributes to see its effectiveness in the accuracy.
 
 2. I would have also tried neural networks(CNN models) on this probelm if I would have time. That also might outperformed others.
 
