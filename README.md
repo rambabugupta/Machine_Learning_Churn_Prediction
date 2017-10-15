@@ -54,7 +54,7 @@ Random forest has quite fast to train but SVM is very slow to train. I kept Rand
 
 ## DATA FINDINGS
 
-- order_Date values have outlier. It contains date of year 2013 also. I have removed it though. 
+- order_Date values have outlier. It contains date of year 2013 also. I have not removed it though. 
 And User_rating_value, Delivery_on_time could also be effective in finding better accuracy.
   
 
