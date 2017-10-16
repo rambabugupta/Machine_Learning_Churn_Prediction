@@ -48,7 +48,7 @@ Random forest has quite fast to train but SVM is very slow to train. I kept Rand
    - command: python predict_rf.py
    - command: python predict_svc.py
 
-2. Accuracy using SVM : ~82 %
+2. After 5 fold cross validation, Accuracy using SVM : ~82 %
    Accuracy using Random Forest : ~79%
    Accuracy using KNN : 78%
 
