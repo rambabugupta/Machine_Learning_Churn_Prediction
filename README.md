@@ -43,13 +43,14 @@ difference in first and last order for each customer.
 
 ## PREDICTION METHODS:
 
-1. I have tried two models. Random Forest and Support Vector Machine have been used for modelling. 
-Random forest has quite fast to train but SVM is very slow to train. I kept Random Forest though. I have uploaded code of both.
+1. I have tried three models. Random Forest, KNN and Support Vector Machine have been used for modelling. 
+Random forest has quite fast to train but SVM is very slow to train. I kept Random Forest though. I have uploaded code of al three.
    - command: python predict_rf.py
    - command: python predict_svc.py
 
 2. Accuracy using SVM : ~82 %
    Accuracy using Random Forest : ~79%
+   Accuracy using KNN : 78%
 
 
 ## DATA FINDINGS
