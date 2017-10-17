@@ -28,11 +28,11 @@ difference in first and last order for each customer.
 
 - avg_of_amount_paid: Average of the total amount paid for every customer. Intially, I had planned to use total_amount for each customer as transformation.
 
-- most_visited_payment_id: Most used payment_id for customer(categorical variables are arranged from sequential order starting from 1 as value was high). Encoding is missing. Discussed below.
+- most_visited_payment_id: Most used payment_id for customer(categorical variables are arranged from sequential order starting from 1). Encoding is missing. Discussed below.
 
-- most_visited_platform_id:  Most used plaform_id for platform(categorical variables are arranged from sequential order starting from 1 as value was high)
+- most_visited_platform_id:  Most used plaform_id for platform(categorical variables are arranged from sequential order starting from 1)
 
-- most_visited_transmission_id: Most used transmission_id(categorical variables are arranged from sequential order starting from 1 as value was high)
+- most_visited_transmission_id: Most used transmission_id(categorical variables are arranged from sequential order starting from 1)
 
 ### Dropped other attributes
 
@@ -48,8 +48,8 @@ Random forest has quite fast to train but SVM is very slow to train. I kept Rand
    - command: python predict_rf.py
    - command: python predict_svc.py
 
-2. After 5 fold cross validation, Accuracy using SVM : ~82 %
-   Accuracy using Random Forest : ~79%
+2. After 5 fold cross validation, Accuracy using SVM : ~82 % ,
+   Accuracy using Random Forest : ~79% ,
    Accuracy using KNN : 78%
 
 
