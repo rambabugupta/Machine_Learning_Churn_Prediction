@@ -28,11 +28,12 @@ difference in first and last order for each customer.
 
 - avg_of_amount_paid: Average of the total amount paid for every customer. Intially, I had planned to use total_amount for each customer as transformation.
 
-- most_visited_payment_id: Most used payment_id for customer(categorical variables are arranged from sequential order starting from 1). Binary Encoding is required for categorical variable though. Its not implemented.
+- most_visited_payment_id: Most used payment_id for customer(categorical variables are arranged from sequential order starting from 1). Need to see its effectiveness on binary Encoding. It is required for categorical variable though. Its not implemented.
 
-- most_visited_platform_id:  Most used plaform_id for platform(categorical variables are arranged from sequential order starting from 1). Binary Encoding is required for categorical variable though. Its not implemented. Categorical could be also dropped.
+- most_visited_platform_id:  Most used plaform_id for platform(categorical variables are arranged from sequential order starting from 1). Binary Encoding is required for categorical variable though. Categorical could be also dropped.
 
-- most_visited_transmission_id: Most used transmission_id(categorical variables are arranged from sequential order starting from 1). Binary Encoding is required for categorical variable though. Its not implemented.
+- most_visited_transmission_id: Most used transmission_id(categorical variables are arranged from sequential order starting from 1). 
+Need to see its effectiveness on binary Encoding. It is required for categorical variable though. Its not implemented.
 
 ### Dropped other attributes
 
